@@ -1,0 +1,161 @@
+.navbar-nav li{
+    padding: 0 ;
+}
+.navbar-nav li a{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+  
+ 
+}
+.navbar-nav li a:hover{
+   background-color: white;
+   color:#5f1782 !important;
+ font-weight: 600;
+}
+.navbar{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+}
+.navbar-brand{
+    margin:0;
+    padding: 0;
+}
+
+
+#banner{
+    background-image: linear-gradient(to right, #a517ba,#5f1782);
+    color: white;
+    padding-top: 5%;
+}
+.promo-title{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 100px;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+   
+}
+#banner a{
+    color: white;
+    text-decoration: none;
+}
+
+#services .container h1::after{
+    content:'';
+    background-color: #522d64;
+    height: 5px;
+    max-width: 240px ;
+    margin: 5px auto 20px auto;
+    display: block;
+}
+#services .container h1::before{
+    content:'';
+    background-color: #522d64;
+    height: 10px;
+    max-width: 50px;
+    margin: 0 auto 0 auto;
+    display: block;
+    transform: translateY(60px);
+    
+}
+#services .container .btn{
+background-image: linear-gradient(to right, #a517ba,#5f1782) ;
+color:white;
+padding: 8px 10px;
+margin: 15px 0;
+border-radius: 20px;
+
+}
+
+#about-us{
+    margin-top: 100px;
+}
+
+#about-us .container h1::after{
+    content:'';
+    background-color: #522d64;
+    height: 5px;
+    max-width: 240px ;
+    margin: 5px auto 20px auto;
+    display: block;
+}
+#about-us .container h1::before{
+    content:'';
+    background-color: #522d64;
+    height: 10px;
+    max-width: 50px;
+    margin: 0 auto 0 auto;
+    display: block;
+    transform: translateY(60px);
+    
+}
+#about-us .row{
+    margin-top: 80px;
+}
+#about-us ul{
+    list-style: none;
+}
+
+
+#testimonial .container h1::after{
+    content:'';
+    background-color: #7b1798;
+    height: 5px;
+    max-width: 240px ;
+    margin: 5px auto 20px auto;
+    display: block;
+}
+#testimonial .container h1::before{
+    content:'';
+    background-color: #522d64;
+    height: 10px;
+    max-width: 50px;
+    margin: 0 auto 0 auto;
+    display: block;
+    transform: translateY(60px);
+    
+}
+#testimonial .row{
+    margin-top: 80px;
+}
+#testimonial .container-fluid{
+    margin: 0;
+    padding: 0;
+}
+#testimonial img{
+    border-radius: 100%;
+}
+#testimonial .col-md-3{
+    border-left: 4px solid #7b1798;
+}
+
+
+
+#social-media img{
+    padding: 10px ;
+    margin: 0 5px;
+    transition: .3s;
+}
+#social-media img:hover{
+  
+    transform: scale(.5);
+}
+
+#footer{
+    background-image:linear-gradient(to right, #a517ba,#5f1782) ;
+    color: white;
+}
+#footer .fa-solid{
+    background-image:linear-gradient(to right, #a517ba,#5f1782) ;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 5px;
+}
+#footer .btn{
+    background-image:linear-gradient(to right, #a517ba,#5f1782) ; 
+    color: white;
+    border: 1px solid #522d64;
+}
