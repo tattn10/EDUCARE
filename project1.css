@@ -159,3 +159,38 @@ border-radius: 20px;
     color: white;
     border: 1px solid #522d64;
 }
+
+.dropdown-content li a{
+  text-decoration: none;
+float: left;
+}
+.dropdown-content li{
+    padding: 20px 0;
+    margin:0;
+}
+.dropdown-content{
+   display: none;
+  padding: 10px;
+  position: absolute;
+  top: 40px;
+  box-shadow: 2px 3px 2px indigo;
+ background-color:#7b1798;
+ font-weight: bold;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+   
+}
+.fa-circle-chevron-up{
+    transition: .3s;
+}
+.dropdown:hover .fa-circle-chevron-up{
+    transform: rotateX(180deg);
+}
+.navbar-brand{
+    transition: 1s;
+}
+.logo:hover .navbar-brand{
+    transform: rotateY(180deg);
+}
